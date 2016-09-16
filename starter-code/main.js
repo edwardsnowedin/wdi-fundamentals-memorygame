@@ -7,5 +7,5 @@ var cardFour = "queen";
 if(cardOne === cardTwo){
   alert("You have a match!");
 } else{
-  alert('Sorry, try again')
+  alert('Sorry, try again');
 }
