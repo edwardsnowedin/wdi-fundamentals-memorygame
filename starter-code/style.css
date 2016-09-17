@@ -1,6 +1,7 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+
 body {
   margin: 0;
 }
@@ -9,24 +10,29 @@ body {
   height: 200px;
   width: 150px;
   border: 1px solid black;
-  background-color:yellow;
+  background-color: #A62139;
   border-radius: 10px;
   float: left;
   margin:8%
 }
 
 h1 {
-  color:rgb(2, 132, 130);
-  text-align: center
+  color: #6ABEDB;
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
 }
 
 h2 {
-  color: #ffd700;
-  text-align: center
+  color: #6ABEDB;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Baloo Tamma', cursive;
 }
 
 p{
-  text-align: center
+  text-align: center;
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .name {
@@ -40,11 +46,11 @@ p{
 }
 
 nav {
-  background-color: #808080;
+  background-color: #000;
       }
 
 a {
-        background-color: #ffbf00;
+        background-color: #3F3F3F;
         color: white;
         text-decoration: none;
         display: block;
@@ -53,8 +59,8 @@ a {
       }
 
 a:hover {
-        background-color: #ee5f3c;
-      }
+        background-color: #5B6073;
+  }
 
 .clearfix:after {
         visibility: hidden;
@@ -66,6 +72,9 @@ a:hover {
       }
 
 footer {
-  background-color: #808080;
+  background-color: #000;
+  color: #FFF;
   text-align: center;
+  padding: 10px;
+  font-family: 'Baloo Tamma', cursive;
 }
